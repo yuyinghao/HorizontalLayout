@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false" >
+    
+    <com.xiaoyu.horizontallayout.library.HorizontalLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        layout:item_margin="20dp"
+        layout:left_scale_space="50dp"
+        layout:top_scale_space="50dp"
+        ></com.xiaoyu.horizontallayout.library.HorizontalLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="HorizontalLayout">
+        <attr name="left_scale_space" format="dimension" />
+        <attr name="top_scale_space" format="dimension" />
+        <attr name="item_margin" format="dimension" />
+    </declare-styleable>
+
+</resources>
